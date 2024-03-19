@@ -11,7 +11,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 webcam=cv2.VideoCapture(0)
 
 sfr = SimpleFacerec()
-sfr.load_encoding_images("D:\Hackathon4\Test IMG")
+sfr.load_encoding_images(""""Location of file which contians img"""")
 
 while True:
     
